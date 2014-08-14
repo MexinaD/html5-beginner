@@ -105,14 +105,27 @@ nav ul li {
         display: table-cell;
         width: 620px;
         padding-right: 22px;
+	border-radius:100px;
     }
  
     aside {
         display: table-cell;
         width: 300px;
+	background-color: #fce;
+	border-radius:15px;
     }
 
 .blogPost div {
     column-count: 2;
     column-gap: 22px;
+}
+
+section#comments article:nth-child(2n+1) {
+    padding: 21px;
+    background: #E3E3E3;
+    border: 1px solid #d7d7d7;
+ 
+    /* Border-radius not implemented yet */
+    -moz-border-radius: 11px;
+    -webkit-border-radius: 11px;
 }
