@@ -111,3 +111,8 @@ nav ul li {
         display: table-cell;
         width: 300px;
     }
+
+.blogPost div {
+    column-count: 2;
+    column-gap: 22px;
+}
